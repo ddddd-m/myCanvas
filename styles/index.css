@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding:0;
+}
+
+body {
+	background-color: #C9D3E2;
+}
+
+#canvas {
+	box-shadow: 0 0 5px  5px #8194AA;
+	background-color: #fff;	
+	cursor: crosshair;
+}
+
+.nav {
+	height: 115px;
+	background-color: #DEE7F5;
+	border-bottom: #9FAEC2;
+	margin:0 0 20px 0;
+
+	position: relative;
+}
+
+.content {
+	text-align: center;
+}
+
+select {
+	width: 100px;
+	height: 20px;
+	background-color: #DEE7F5;
+	color:#999;
+
+	float:left;
+	margin:10px 0;
+}
+
+#selectStrog {
+	margin: 20px 60px;
+}
+
+.shape {
+	width: 156px;
+	height: 70px;
+	float:left;
+	border: 1px solid #ccc;
+	background-color: #F3F7FC;
+}
+
+.shape img {
+	border:1px solid #fff;
+	background-color: #fff;
+}
+
+.shape img:hover {
+	border:1px solid orange;
+}
+
+.bigImg {
+	width: 148px;
+}
+
+small {
+	color:#999;
+	margin:0 54px;
+}
+
+input {
+	width: 30px;
+	height: 60px;
+	margin:5px 30px;
+}
+
+.color {
+	width: 100px;
+	float:left;
+}
+
+.word {
+	margin:14px;
+}
+
+.eraser {
+	width: 109px;
+	height: 40px;
+	margin:10px 0;
+	padding:8px 3px;
+
+	float:left;
+	cursor: pointer;
+	border:1px solid #ccc;
+}
+
+.eraser img {
+	margin-left: 20px;
+}
+
+.guss,.clear {
+	color: #999;
+	width: 80px;
+	height: 30px;
+	margin:30px 20px;
+	background-color: #F3F7FC;
+
+	float:left;
+}
+
+.colorEdit {
+	right:140px;
+}
+
+.button_clean {	
+	float:left;
+}
+
+.color_table {
+	float:left;
+	width: 440px;
+	height: 105px;
+	margin:11px 20px;
+}
+
+.color_table table div {
+	width: 20px;
+	height: 20px;
+	border:1px solid #ccc;
+	background-color: #fff;
+}
+
+.color_table table div p {
+	width: 18px;
+	height: 18px;
+	margin: 1px auto;	
+}
+
+.color_table table div:hover {
+	border-color: orange;
+}
+
+.color_table table div.threeLine {
+	background-color: #DDE7F5;
+}
+
+.color_table input {
+	float: left;
+}
+
+.table,.color1,.color2 {
+	float:left;
+}
+
+.color1,.color2 {
+	width: 40px;
+	height: 90px;
+
+	position: relative;
+	margin:0 3px;
+	border:1px solid #DEE7F5;
+	border-radius: 5px;
+}
+
+.smallBorder,.smallBorder2 {
+	position: absolute;
+
+	width: 31px;
+	height: 31px;
+	left:4px;
+	top:8px;
+	border:1px solid #000;
+}
+
+.select_color {
+	width: 27px;
+	height: 27px;
+	margin: 2px 2px;
+	background-color: #000;
+}
+
+.word_color,.word_color2 {
+	color:#1E395B;
+	width: 25px;
+	font-size: 13px;
+	margin:9px 7px;
+}
+
+.smallBorder2 {
+	width: 25px;
+	height: 25px;
+	left:7px;
+}
+
+.select_color2 {
+	width: 23px;
+	height: 23px;
+	margin: 1px 1px;
+	background-color: #fff;
+}
+
+.word_color2 {
+	margin:13px 2px;
+}
+

@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>画板</title>
+	<link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="nav">
+			<select name="粗细" id="selectStrog">
+				<option value="1">细</option>
+				<option value="2">中</option>
+				<option value="3">粗</option>
+				<option value="4">超粗</option>
+			</select>
+
+			<div class="shape">
+				<img src="images/1.png" class = "straight">
+				<img src="images/2.png" class = "curve">
+				<img src="images/3.png" class = "rect">
+				<img src="images/4.png" class = "circle">
+				<img src="images/5.png" class = "isosTriangle">
+				<img src="images/6.png" class = "bigImg">
+				<small>形状</small>			
+			</div>
+
+			<div class="color">
+				<input type = "color" class = "selectColor">
+				<small class = "word">请选择颜色</small>
+			</div>
+
+			<div class="eraser">
+				<img src="images/7.png" class="eraser1">
+				<img src="images/9.png" class = "fill">
+				<small style = "margin:0;">橡皮擦</small>
+				<small style = "margin:0 18px;">填充</small>
+			</div>
+
+			<div class="button_clean">
+				<button class = "guss">我猜你画</button>
+				<button class = "clear">清除画布</button>
+				<!-- <div class="colorEdit">
+					<img src="images/10.png"> 
+				</div> -->
+			</div>
+
+			<div class="color_table">
+				<div class="color1">
+					<div class="smallBorder">
+						<p class="select_color"></p>
+						<p class="word_color">颜色 1</p>
+					</div>
+				</div>
+				<div class="color2">
+					<div class="smallBorder2">
+						<p class="select_color2"></p>
+						<p class="word_color2">颜色 2</p>
+					</div>
+				</div>
+				<div class="table">
+					<table >
+						<tr>
+							<td>
+								<div >
+									<p style="background-color:#000"></p>
+								</div>
+							</td>
+							<td>
+								<div >
+									<p style="background-color:#7F7F7F"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#880015"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#ED1C24"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#FF7F27"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#FFF200"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#22B14C"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#00A2E8"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#3F48CC"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#A349A4"></p>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div >
+									<p style="background-color:#fff"></p>
+								</div>
+							</td>
+							<td>
+								<div >
+									<p style="background-color:#C3C3C3"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#B97A57"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#FFAEC9"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#FFC90E"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#EFE4B0"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#B5E61D"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#99D9EA"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#7092BE"></p>
+								</div>
+							</td>
+							<td>
+								<div>
+									<p style="background-color:#C8BFE7"></p>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="threeLine"></div>
+							</td>
+							<td>
+								<div class="threeLine"></div>
+							</td>
+							<td>
+								<div class="threeLine"></div>
+							</td>
+							<td>
+								<div class="threeLine"></div>
+							</td>
+							<td>
+								<div class="threeLine"></div>
+							</td>
+							<td>
+								<div class="threeLine"></div>
+							</td>
+							<td>
+								<div class="threeLine"></div>
+							</td>
+							<td>
+								<div class="threeLine"></div>
+							</td>
+							<td>
+								<div class="threeLine"></div>
+							</td>
+							<td>
+								<div class="threeLine"></div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<canvas id = "canvas" width = "900" height = "500">
+			您好！您的浏览器不支持canvas!
+			</canvas>
+		</div>
+	</div>
+
+	<script src="js/jquery-1.4.3.js"></script>
+	<script src= "js/index.js"></script>
+</body>
+</html>
